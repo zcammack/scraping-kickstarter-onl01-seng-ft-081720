@@ -1,9 +1,12 @@
 require 'nokogiri'
 
-def create_project_hash
+class Scraper
 
-  html = File.read('fixtures/kickstarter.html')
+  def create_project_hash
 
-  kickstarter = Nokogiri::HTML
+    html = File.read('fixtures/kickstarter.html')
 
+    kickstarter = Nokogiri::HTML
+
+  end
 end
